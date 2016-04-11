@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi" />
+        <link rel="stylesheet" type="text/css" href="" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile.theme.css" />
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <title>Math is Fun!!!</title>
+    </head>
+    <body>
+        
+                <div data-role="page" id="home">
+
+                    <header data-role="header">
+                      <h1>Math is Fun!!!</h1>
+                    </header>    
+
+                    <div data-role="content">
+                      <nav data-role="navbar">
+                          <ul class="nav navbar-nav">
+                              <li><a id="add" href="#addition">Addition</a></li>
+                              <li><a id="sub" href="#subtraction">Subtraction</a></li>
+                              <li><a id="multi" href="#multiplication">Multiplication</a></li>
+                              <li><a id="div" href="#division">Division</a></li>
+                          </ul>
+                       </nav>
+                  
+                   </div>
+
+
+                     <img class="math" src="img/math.jpg">
+                </div>
+            
+
+
+  
+   <div data-role="page" id="addition">
+        
+    <header data-role="header">
+         <h1>Additon is Awesome!!!</h1>
+    </header>            
+
+             <div data-role="content" id="common">
+                    <nav data-role="navbar">
+                        <ul class="nav navbar-nav">
+                            <li><a id="add" href="#addition">Addition</a></li>
+                            <li><a id="sub" href="#subtraction">Subtraction</a></li>
+                            <li><a id="multi" href="#multiplication">Multiplication</a></li>
+                            <li><a id="div" href="#division">Division</a></li>
+                        </ul>
+                    </nav> 
+                    <div id="button">
+                      <a id="easy" data-role="button" data-theme="b">Easy</a>
+                      <a id="interm" data-role="button" data-theme="b">Intermediate</a>
+                      <a id="adv" data-role="button" data-theme="b">Advanced</a>
+                    </div>
+
+<div id="mainTable" >
+                  <table align="center" class="eqn" id="myTable" cellspacing="0">
+                     <caption></caption>
+                      <tr>  
+                        <td><p id="eqn"></p> </td>
+                        <td class="btn-group" data-toggle="buttons">
+                         <button type="button" class="btn btn-default" data-radio-name="radio" id="option1"></button>
+                         <button type="button" class="btn btn-default" data-radio-name="radio" id="option2"></button>
+                         <button type="button" class="btn btn-default" data-radio-name="radio" id="option3"></button>
+                         <button type="button" class="btn btn-default" data-radio-name="radio" id="option4"></button></td>
+                      </tr>
+
+                      <tr>
+                        <td align="center"><a id="ok" data-role="button">OK</a></td>
+                        <td><a id="next" data-role="button">Next</a></td>
+                      </tr>
+                      <tr><td><p id="mark"></p><td></tr>
+                  </table>
+
+                     
+                  <table id="info" align="right" border="1" cellspacing="0">
+                   <tr>
+                     <td align="center">
+                             <h4 style="background-color:#81DAF5;">Time Elapsed</h4>
+                         <form name="clock">
+                           <h5>Hr:Min:Sec</h5>
+                         <input type="text" size="12" name="time"/>
+                         </form>
+                       </td>
+                    </tr>     
+                     <tr>
+                       <td align="center">
+                         <h4 style="background-color:#58FAAC;">Questions Answered</h4>
+                         <input id="answered" type="number" value="0" readonly /><br />
+                      </td>
+                     </tr>    
+                     
+                      <tr>
+                       <td align="center">
+                       <h4 style="background-color:#2EFEF7;">Correct</h4>
+                       <input id="correct" type="number"  value="0" readonly>
+                       <h4 style="background-color:#F5A9F2;">Wrong</h4>
+                       <input id="wrong" type="number"  value="0" readonly>
+                      </tr>                                     
+                  </table>  
+ </div>
+                                    
+                      <input type="hidden"  id = "ans" >
+                      <input type="hidden" id = "option">
+            </div>
+  </div>
+
+           <div data-role="page" id="subtraction">
+               <header data-role="header">
+                    <h1>Subtraction is Fun!!!</h1>
+                </header>
+          </div> 
+
+           <div data-role="page" id="multiplication">
+               <header data-role="header">
+                    <h1>Multiplication is Fun!!!</h1>
+                </header>
+          </div>      
+
+           <div data-role="page" id="division">
+               <header data-role="header">
+                    <h1>Division is Awesome!!!</h1>
+                </header>
+           </div>
+         
+
+  
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>        
+    </body>
+</html>
