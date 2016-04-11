@@ -38,15 +38,16 @@ header h1{}
   }
 #myTable{float: left;width:53vw;}
 
-#info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,a#next{
-  font-size: 4vmin;
-  text-align:center;
+#info{
+  margin:3vmin;
+  float:right;
+  width:25vw;
 }
 
-td.btn-group {  width:25vw;text-align: center;}
+td.btn-group {  width:25vw;text-align: center;float:right;}
 p#eqn,#ok,#next{width:25vw;}
 #next{ float:right;}
-#option1,#option2,#option3,#option4{width:20vw;float:right;}
+button#option1,button#option2,button#option3,button#option4{width:20vw;float:right;}
 
 #myTable caption { 
   caption-side: top;
@@ -55,6 +56,12 @@ p#eqn,#ok,#next{width:25vw;}
   font-weight:bold;
   font-size: 5vmin;
  }
+
+
+#info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,a#next{
+  font-size: 4vmin;
+  text-align:center;
+}
 
 p#mark{
     height: 8vh;
@@ -65,19 +72,7 @@ p#mark{
     text-shadow: 2px 2px 2px #333;
 }
 
-
-#info{
-  margin:3vmin;
-  float:right;
-  width:25vw;
-}
-
 #info input{font-size: 4vmin;text-align: center;}
-
-
-
-
-
 
 #add{
   background-color: #F79F81;font-size: 3.5vmin;padding-left: 5px;
