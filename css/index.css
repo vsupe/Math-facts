@@ -36,7 +36,7 @@ header h1{}
     margin:5px;
     float: left;
   }
-
+#myTable{float: left;width:60vw;}
 
 #info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,#next{
   font-size: 4vmin;
@@ -44,8 +44,8 @@ header h1{}
 }
 
 td.btn-group {  width:18vw;text-align: center;}
-#ok{ width:15vw;}
-#next{ width:18vw;}
+#ok{ width:20vw;}
+#next{ width:20vw;}
 
 #myTable caption { 
   caption-side: top;
@@ -56,16 +56,14 @@ td.btn-group {  width:18vw;text-align: center;}
  }
 
 p#mark{
-    width: 12vw;
     height: 8vh;
-    font-size: 9vmin;
+    font-size: 12vmin;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: center;
     text-shadow: 2px 2px 2px #333;
 }
 
-#myTable{float: left;width:50vw;}
 
 
 #info{
