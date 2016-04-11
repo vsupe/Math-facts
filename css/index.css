@@ -36,16 +36,17 @@ header h1{}
     margin:5px;
     float: left;
   }
-#myTable{float: left;width:50vw;}
-.col2{float:right;}
-#info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,#next{
+#myTable{float: left;width:53vw;}
+
+#info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,a#next{
   font-size: 4vmin;
   text-align:center;
 }
 
-td.btn-group {  width:18vw;text-align: center; float:right;}
-#ok{ width:20vw;}
-#next{ width:20vw;}
+td.btn-group {  width:25vw;text-align: center;}
+p#eqn,#ok,#next{width:25vw;}
+#next{ float:right;}
+#option1,#option2,#option3,#option4{width:20vw;float:right;}
 
 #myTable caption { 
   caption-side: top;
@@ -63,7 +64,6 @@ p#mark{
     text-align: center;
     text-shadow: 2px 2px 2px #333;
 }
-
 
 
 #info{
