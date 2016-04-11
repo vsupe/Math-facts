@@ -36,14 +36,14 @@ header h1{}
     margin:5px;
     float: left;
   }
-#myTable{float: left;width:60vw;}
-
+#myTable{float: left;width:50vw;}
+.col2{float:right;}
 #info h4,#info h5,p#eqn,#option1,#option2,#option3,#option4,a#ok,#next{
   font-size: 4vmin;
   text-align:center;
 }
 
-td.btn-group {  width:18vw;text-align: center;}
+td.btn-group {  width:18vw;text-align: center; float:right;}
 #ok{ width:20vw;}
 #next{ width:20vw;}
 
